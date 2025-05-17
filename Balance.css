@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.con1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+
+    background-color: lightblue;
+    width: 700px;
+    padding: 30px;
+}
+
+.Balance {
+    font-size: 20px;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.label {
+    font-family: "Roboto";
+    padding: 5px;
+}
+
+.BalanceAmount {
+    font-size: 25px;
+}
+
+.button {
+    padding: 8px;
+    border-width: 0px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+}
+
+.IncomeexpSection {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    font-family: "Roboto";
+}
+
+.hrLine {
+
+    border-style: solid;
+    border-color: gray;
+}
+
+.expence {
+    color: red;
+}
+
+.income {
+    color: green;
+}
+
+.ListAddedforIncome {
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.IncomeList {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: green;
+}
+
+.expenseList {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: red;
+}
+
+.ListItems {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.addingFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.styleing-button {
+    padding: 7px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: white;
+    font-family: "Roboto";
+}
+
+.styleing-button:hover {
+    background-color: red;
+    color: white;
+}
